@@ -20,8 +20,12 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("May tinh dang hoat dong!");
-        App calc = new App();
-        System.out.println("Ket qua phep cong 10+5 = " + calc.add(10, 5));
-        System.out.println("Ket qua phep chia 10/2 = " + calc.divide(10, 2));
+    System.out.println("=========================================");
+    System.out.println("KET QUA THUAT TOAN MAY TINH:");
+    System.out.println("Phep cong (10 + 5) = " + calc.add(10, 5));
+    System.out.println("Phep tru (10 - 5) = " + calc.subtract(10, 5));
+    System.out.println("Phep nhan (10 * 5) = " + calc.multiply(10, 5));
+    System.out.println("Phep chia (10 / 5) = " + calc.divide(10, 5));
+    System.out.println("=========================================");
     }
 }
